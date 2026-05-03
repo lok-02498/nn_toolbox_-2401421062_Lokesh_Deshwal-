@@ -2,13 +2,9 @@ streamlit
 numpy
 pandas
 plotly
-scikit-learn
-streamlit
-pandas
-openpyxl
 scikit-learn==1.6.1
+openpyxl
 tqdm
 opencv-python-headless
-numpy
-plotly
 pillow
+streamlit-drawable-canvas

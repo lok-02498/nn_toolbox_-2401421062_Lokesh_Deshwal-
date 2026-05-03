@@ -1,4 +1,4 @@
-import streamlit as st 
+import streamlit as st
 
 st.set_page_config(
     page_title="Neural Network Toolbox",
@@ -17,10 +17,9 @@ page = st.sidebar.radio("Go to", [
     "📈 RNN",
     "🧩 CNN Working Model From Scratch",
     "💬 Sentiment Analysis",
-    "📷 Face Detection"
+    "📷 Face Detection",
+    "🧠 Hopfield OCR",
 ])
-
-# ---------------- ROUTING ----------------
 
 if page == "🏠 Home":
     from src.pages import home
@@ -50,9 +49,14 @@ elif page == "🧩 CNN Working Model From Scratch":
     from src.pages import cnn
     cnn.show()
 
-elif page == "💬 Sentiment Analysis":   # ✅ ADDED
+elif page == "💬 Sentiment Analysis":
     from src.pages import sentiment
     sentiment.show()
+
 elif page == "📷 Face Detection":
     from src.pages import face_detection
     face_detection.show()
+
+elif page == "🧠 Hopfield OCR":
+    from src.pages import hopfield_ocr
+    hopfield_ocr.show()

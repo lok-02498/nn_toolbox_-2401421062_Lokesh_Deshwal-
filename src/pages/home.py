@@ -18,9 +18,7 @@ def show():
         - ⚡ **Perceptron** — The building block of all neural networks
         - ➡️ **Forward Propagation** — How data flows through a network
         - ⬅️ **Backward Propagation** — How a network learns from errors
-        - 🔗 **MLP Classifier** — A full multi-layer neural 
-        - 📈 **RNN** — Recurrent Neural Networks for sequence data
-        - 🧩 **CNN** — Convolutional Neural Networks for image data
+        - 🔗 **MLP Classifier** — A full multi-layer neural network
         """)
 
     with col2:
