@@ -58,27 +58,32 @@ http://localhost:8501
 ## 📁 Project Structure
 
 nn_toolbox/
-├── app.py ← Main app (routing)
-├── requirements.txt ← Dependencies
+│
+├── app.py
+├── requirements.txt
 ├── README.md
-├── sentiment_model.pkl ← Trained ML model
-├── flipkardata.xlsx ← Dataset (optional)
-├── registered_students.csv ← Face registration data
-
+│
+├── sentiment_model.pkl
+├── flipkardata.xlsx
+├── registered_students.csv
+│
 └── src/
-├── pages/
-│ ├── home.py
-│ ├── perceptron.py
-│ ├── forward_prop.py
-│ ├── backward_prop.py
-│ ├── mlp.py
-│ ├── rnn.py
-│ ├── cnn.py
-│ ├── sentiment.py
-│ ├── face_detection.py
-│ ├── hopfield_ocr.py
-│ └── hopfield_network.py
-
+    │
+    ├── preprocessing.py
+    │
+    └── pages/
+        │
+        ├── home.py
+        ├── perceptron.py
+        ├── forward_prop.py
+        ├── backward_prop.py
+        ├── mlp.py
+        ├── rnn.py
+        ├── cnn.py
+        ├── sentiment.py
+        ├── face_detection.py
+        ├── hopfield_ocr.py
+        └── hopfield_network.py
 ---
 
 ## 🧠 Key Features
