@@ -56,7 +56,7 @@ http://localhost:8501
 ---
 
 ## 📁 Project Structure
-
+```text
 nn_toolbox/
 │
 ├── app.py
@@ -84,6 +84,7 @@ nn_toolbox/
         ├── face_detection.py
         ├── hopfield_ocr.py
         └── hopfield_network.py
+```
 ---
 
 ## 🧠 Key Features
