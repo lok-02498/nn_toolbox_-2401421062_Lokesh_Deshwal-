@@ -57,7 +57,6 @@ http://localhost:8501
 
 ## 📁 Project Structure
 
-
 nn_toolbox/
 ├── app.py ← Main app (routing)
 ├── requirements.txt ← Dependencies
@@ -79,8 +78,6 @@ nn_toolbox/
 │ ├── face_detection.py
 │ ├── hopfield_ocr.py
 │ └── hopfield_network.py
-
-└── preprocessing.py          ← Text preprocessing
 
 ---
 
